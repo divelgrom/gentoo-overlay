@@ -25,6 +25,7 @@ RDEPEND=">=sys-libs/pam-0.76"
 DEPEND=">=sys-libs/pam-0.76
 		doc? ( dev-python/sphinx )"
 
+# this litle crutch, doc not function
 src_compile() {
 	if use doc; then
 		TARGET="lib"
