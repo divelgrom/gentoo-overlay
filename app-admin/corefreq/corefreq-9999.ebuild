@@ -16,7 +16,7 @@ else
 	KEYWORDS="-* ~amd64"
 fi
 
-LICENSE="GNU General Public License v2.0"
+LICENSE="GNU General Public License v2.0" 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""

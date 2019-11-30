@@ -58,4 +58,5 @@ src_install() {
       mkdir -p usr/bin
       fperms 755 /lib/security/howdy/cli.py
       dosym    ${D}/lib/security/howdy/cli.py usr/bin/howdy
+
 }
