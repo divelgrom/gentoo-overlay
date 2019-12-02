@@ -40,7 +40,7 @@ src_install() {
     keepdir /lib/modules/${KV_FULL}/extra/
     insinto /lib/modules/${KV_FULL}/extra/
     doins corefreqk.ko
-    insinto /bin/
+    into /
 	dobin corefreqd corefreq-cli || die
     systemd_newunit ${SERVICE}.service ${SERVICE}.service
 }
